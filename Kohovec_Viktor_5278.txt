@@ -1,0 +1,10 @@
+echo -e "Dog\nCat\nHamster" > Pets.txt & echo -e "Horse\nCamel\nDonkey" > PackAnimals.txt
+cat Pets.txt PackAnimals.txt > Combined.txt
+cat Combined.txt
+mkdir human_friends
+mv Combined.txt HumanFriends.txt
+mv HumanFriends.txt human_friends/
+sudo apt-get update
+sudo apt-get install mysql-server
+sudo dpkg -i sl_5.02-1_amd64.deb
+sudo dpkg -r sl
